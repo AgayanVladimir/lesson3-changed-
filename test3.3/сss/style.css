@@ -1,0 +1,188 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: roboto;
+}
+
+.container {
+	max-width: 1146px;
+	margin: 0 auto;
+}
+
+.title-block {
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 120px 0px 138px 0px;
+
+
+}
+
+
+
+h1 {
+	margin: 0px 0px 27px 0px;
+
+	font-weight: 500;
+	font-size: 54px;
+	line-height: 116%;
+	color: #003395;
+}
+
+.title-block p {
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 100%;
+	color: #000000;
+}
+
+main {
+	padding: 57px 0px 62px 0px;
+}
+
+.menu {
+	background: #003395;
+	padding: 27px 0px 26px 0px;
+}
+
+nav {}
+
+nav li {
+	display: inline-block;
+	padding: 0px 62px 0px 0px;
+}
+
+li a {
+	text-decoration: none;
+
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 207.9%;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+
+
+}
+
+
+
+.info:not(:first-child) {
+	margin: 34px 0px 0px 0px;
+
+}
+
+
+
+.info__title {
+
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 118%;
+	color: #003395;
+	border-top: 2px solid #003395;
+	border-bottom: 2px solid #003395;
+	padding: 13px 0px 15px 0px;
+}
+
+.info__text {
+	margin: 16px 0px 0px 0px;
+
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 116%;
+	color: #30233D;
+}
+
+.info__text a {
+	color: #003395;
+}
+
+
+
+.news {
+
+	border: 2px solid #33008D;
+
+	vertical-align: top;
+
+	padding: 19px 19px 26px 19px;
+
+}
+
+.news__title {
+	color: #FFFFFF;
+	background-color: #24B0FF;
+
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 118%;
+	padding: 14px 17px 14px 17px;
+}
+
+.news__text {
+
+	font-weight: 400;
+	font-size: 16.2px;
+	line-height: 163.35%;
+	color: #30233D;
+	margin: 14px 0px 0px 0px;
+}
+
+.first-block {
+	max-width: 754px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.second-block {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 362px;
+	margin: 0px 0px 0px 20px;
+
+}
+
+.news:last-child {
+	margin: 56px 0px 0px 0px;
+}
+
+
+
+
+
+footer {
+	padding: 45px 0px 83px 0px;
+	background-image: linear-gradient(180deg, #003395 0%, #00205F 100%);
+
+}
+
+footer p {
+	text-align: right;
+
+	font-weight: 400;
+	font-size: 11.7px;
+	line-height: 163.35%;
+	color: #FCFCFC;
+}
+
+.news__list {
+	margin: 22px 0px 0px 0px;
+}
+
+.news__item {
+	list-style: none;
+	line-height: 163.35%;
+}
+
+.news__item a {
+	font-weight: 400;
+	font-size: 16.2px;
+	color: #30233D;
+	text-decoration: underline;
+
+}
